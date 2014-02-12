@@ -1,6 +1,7 @@
 " Vim color file
 " Maintainer: Henry So, Jr. <henryso@panix.com>
 " Modifications by Evan Klitkze <eklitzke@gmail.com>
+" Modifications by Sergey Yakovlev <me@klay.me>
 
 " These are the colors of the "desert" theme by Hans Fugal with a few small
 " modifications (namely that I lowered the intensity of the normal white and
@@ -29,7 +30,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="desert256"
+let g:colors_name="desert256-transparent"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
     " functions {{{
