@@ -278,7 +278,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     "Tooltip
 
     " syntax highlighting groups
-    call <SID>X("Comment", "87ceeb", "", "")
+    call <SID>X("Comment", "a9a9a9", "", "")
     call <SID>X("Constant", "ffa0a0", "", "")
     call <SID>X("Identifier", "98fb98", "", "none")
     call <SID>X("Statement", "f0e68c", "", "bold")
@@ -327,7 +327,7 @@ else
     hi DiffChange    ctermbg=5
     hi DiffDelete    cterm=bold ctermfg=4 ctermbg=6
     hi DiffText      cterm=bold ctermbg=1
-    hi Comment       ctermfg=darkcyan
+    hi Comment       ctermfg=darkgrey
     hi Constant      ctermfg=brown
     hi Special       ctermfg=5
     hi Identifier    ctermfg=6
