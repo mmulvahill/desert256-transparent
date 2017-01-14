@@ -23,7 +23,7 @@ Sergey struggled with trying to parse the rgb.txt file to avoid the necessity
 of converting color names to #rrggbb form, but decided it was just not worth
 the effort.  Maybe someone seeing this may decide otherwise...
 
-I changed comments to dark grey, so focus is really on the code.
+I changed comments to dark grey.
 
 ## From the owner repository
 
